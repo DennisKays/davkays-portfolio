@@ -5,7 +5,7 @@ export const projects = [
     status: "In Development",
     title: "School Management System",
     description:
-      "A modular school management platform designed to simplify student records, teachers, classes, subjects, attendance, marks and fee tracking.",
+      "A multi-tenant school management platform designed to support multiple schools through a centralized system with role-based access and dedicated portals for administrators, teachers, students, parents and other school users.",
     technologies: ["React", "Vite", "FastAPI", "SQLite"],
     link: "",
   },
