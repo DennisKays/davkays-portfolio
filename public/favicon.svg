@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="24" fill="#050817"/>
+  <circle cx="50" cy="50" r="36" fill="none" stroke="#55a7ff" stroke-width="3"/>
+  <circle cx="50" cy="50" r="29" fill="none" stroke="#a77bff" stroke-width="1.5" opacity=".8"/>
+  <text x="50" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="800" fill="#f4f7ff">DK</text>
+</svg>
