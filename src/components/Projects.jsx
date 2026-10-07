@@ -1,8 +1,27 @@
 ﻿import { ArrowUpRight } from "lucide-react";
-import { projects } from "../data/projects";
+import { useEffect, useState } from "react";
+import { projects as fallbackProjects } from "../data/projects";
+import { supabase } from "../lib/supabase";
 import ProjectCard from "./ProjectCard";
 
 function Projects() {
+  const [projects, setProjects] = useState(fallbackProjects);
+
+  useEffect(() => {
+    async function loadProjects() {
+      const { data } = await supabase
+        .from("projects")
+        .select("*")
+        .order("number", { ascending: true });
+
+      if (data && data.length) {
+        setProjects(data);
+      }
+    }
+
+    loadProjects();
+  }, []);
+
   return (
     <section className="section projects-section" id="projects">
       <div className="container">
@@ -23,7 +42,7 @@ function Projects() {
 
         <div className="projects-grid">
           {projects.map((project) => (
-            <ProjectCard key={project.number} project={project} />
+            <ProjectCard key={project.id || project.number} project={project} />
           ))}
         </div>
 
