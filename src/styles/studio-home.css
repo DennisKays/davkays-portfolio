@@ -1,4 +1,4 @@
-.dk-studio-home {
+﻿.dk-studio-home {
   --dk-bg: #050914;
   --dk-panel: rgba(9, 17, 34, 0.78);
   --dk-panel-strong: #0a1328;
@@ -1751,10 +1751,52 @@
     display: none;
   }
 
-  .dk-service-grid,
+  .dk-service-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .dk-project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .dk-project-body {
+    padding: 13px;
+  }
+
+  .dk-project-body h3 {
+    font-size: 16px;
+  }
+
+  .dk-project-body p {
+    font-size: 10px;
+    line-height: 1.6;
+  }
+
+  .dk-project-tech {
+    gap: 4px;
+    margin-top: 10px;
+  }
+
+  .dk-project-tech span {
+    padding: 4px 5px;
+    font-size: 7px;
+  }
+
   .dk-process-grid,
   .dk-stack-groups {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 9px;
+  }
+
+  .dk-process-step {
+    min-height: 0;
+    padding: 13px;
+  }
+
+  .dk-stack-group {
+    padding: 12px;
+    min-width: 0;
   }
 
   .dk-anything-banner {
@@ -1865,7 +1907,7 @@
 
 /* =========================================================
    DAVKAYS PREMIUM HERO BRAND MARK
-   Inline SVG — no external image required
+   Inline SVG â€” no external image required
    ========================================================= */
 
 .dk-premium-logo-visual {
@@ -2050,7 +2092,7 @@
 
 /* =========================================================
    FINAL HERO LAYOUT
-   LOGO LEFT � HERO MESSAGE RIGHT
+   LOGO LEFT ï¿½ HERO MESSAGE RIGHT
    ========================================================= */
 
 .dk-hero-layout {
@@ -2116,7 +2158,7 @@
 
 
 /* =========================================================
-   DAVKAYS LOGO — FINAL BRAND LOCKUP
+   DAVKAYS LOGO â€” FINAL BRAND LOCKUP
    Keep DK + davKays SOFTWARES visually connected
    ========================================================= */
 
@@ -2201,7 +2243,7 @@
 }
 
 /* =========================================================
-   DAVKAYS — FINAL FLOATING LOGO LOCKUP
+   DAVKAYS â€” FINAL FLOATING LOGO LOCKUP
    DK + DavKays SOFTWARES = ONE BRAND UNIT
    ========================================================= */
 
