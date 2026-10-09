@@ -11,6 +11,7 @@ import {
   Globe2,
   Layers3,
   Lightbulb,
+  Mail,
   MessageCircle,
   Monitor,
   Network,
@@ -452,7 +453,7 @@ function FoodVisual() {
 
         <div className="dk-food-items">
           <div className="dk-food-item">
-            <div className="dk-food-image food-one">ðŸ”</div>
+            <div className="dk-food-image food-one">🍔</div>
             <span>
               <strong>Signature Burger</strong>
               <small>$8.50</small>
@@ -460,7 +461,7 @@ function FoodVisual() {
           </div>
 
           <div className="dk-food-item">
-            <div className="dk-food-image food-two">ðŸ•</div>
+            <div className="dk-food-image food-two">🍕</div>
             <span>
               <strong>Classic Pizza</strong>
               <small>$10.00</small>
@@ -468,7 +469,7 @@ function FoodVisual() {
           </div>
 
           <div className="dk-food-item">
-            <div className="dk-food-image food-three">ðŸ¥¤</div>
+            <div className="dk-food-image food-three">🥤</div>
             <span>
               <strong>Fresh Drinks</strong>
               <small>$3.50</small>
@@ -626,11 +627,11 @@ function StudioHome() {
           <div className="dk-hero-copy">
             <div className="dk-eyebrow">
               <span className="dk-eyebrow-dot" />
-              SOFTWARE SOLUTIONS â€¢ DavKays SOFTWARES
+              SOFTWARE SOLUTIONS
             </div>
 
             <h1>
-              We Build Software
+              Building Software
               <br />
               That Solves{" "}
               <span className="dk-gradient-text">Real</span>
@@ -821,7 +822,7 @@ function StudioHome() {
             </div>
 
             <div className="dk-premium-wordmark">
-              <strong>dav<span>Kays</span></strong>
+              <strong>Dav<span>Kays</span></strong>
               <small>SOFTWARES</small>
             </div>
 
@@ -883,9 +884,9 @@ function StudioHome() {
             </div>
 
             <div>
-              <span>THE DavKays APPROACH</span>
+              <span>The DavKays Approach</span>
               <strong>
-                Don't see your system here? <em>We can build it.</em>
+                Don't see your system here? <em>Let us build it.</em>
               </strong>
               <p>
                 CRM, inventory, booking, HR, finance, education, logistics,
@@ -1167,6 +1168,13 @@ function StudioHome() {
             <a className="dk-primary-button" href="#contact">
               Start a Project
               <ArrowRight size={17} />
+            </a>
+            <a
+              className="dk-secondary-button"
+              href="mailto:davidkanyurira6@gmail.com?subject=Software%20Project%20Enquiry"
+            >
+              Email
+              <Mail size={17} />
             </a>
 
             <a
