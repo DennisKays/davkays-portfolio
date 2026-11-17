@@ -650,10 +650,6 @@ function StudioHome() {
                 Explore Our Work
                 <ArrowRight size={17} />
               </a>
-              <a className="dk-secondary-button" href="/portfolio-templates/">
-                Portfolio Templates
-                <ArrowUpRight size={16} />
-              </a>
 
               <a className="dk-secondary-button" href="#contact">
                 Start a Project

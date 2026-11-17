@@ -8,7 +8,6 @@ const links = [
   { label: "Services", href: "#services" },
   { label: "Skills", href: "#skills" },
   { label: "Contact", href: "#contact" },
-  { label: "Portfolio Templates", href: "/portfolio-templates/" },
 ];
 
 function Navbar() {
